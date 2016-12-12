@@ -6,10 +6,10 @@
     <data>
         <variable
             name="viewModel"
-            type="jp.promin.chike.android.dentakukku.ui.MainActivityViewModel" />
+            type="jp.promin.chike.android.chikedentaku.ui.MainActivityViewModel" />
         <variable
             name="listener"
-            type="jp.promin.chike.android.dentakukku.ui.MainActivityViewModel.Listener" />
+            type="jp.promin.chike.android.chikedentaku.ui.MainActivityViewModel.Listener" />
     </data>
 
     <RelativeLayout
@@ -69,7 +69,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1" >
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -77,7 +77,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="tax" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -85,7 +85,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="7" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -93,7 +93,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="4" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -101,7 +101,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="1" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -118,7 +118,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1" >
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -126,7 +126,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="memory_plus" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -134,7 +134,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="8" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -142,7 +142,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="5" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -150,7 +150,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="2" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -166,7 +166,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1" >
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -174,7 +174,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="memory_minus" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -182,7 +182,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="9" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -190,7 +190,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="6" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                <jp.promin.chike.android.chikedentaku.ui.view.NumberButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -198,7 +198,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:number="3" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -214,7 +214,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1" >
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -222,7 +222,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="memory_clear" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -230,7 +230,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="cancel_all" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -238,7 +238,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="op_division" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="2.03"
@@ -254,7 +254,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1" >
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -262,7 +262,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="num_delete"/>
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -270,7 +270,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="cancel" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -278,7 +278,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="op_multiple" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -286,7 +286,7 @@
                     android:onClick="@{listener::onClickKey}"
                     app:type="op_sub" />
 
-                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                <jp.promin.chike.android.chikedentaku.ui.view.FunctionButton
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
